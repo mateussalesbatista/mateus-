@@ -28,13 +28,13 @@ function draw() {
     drops[i]++;
   }
 
-  // Adiciona o nome "Mateus" centralizado
+  // Adiciona o nome "gay" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
-  const textWidth = ctx.measureText('Mateus').width;
+  const textWidth = ctx.measureText('gay').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Mateus Sales Batista', x, y);
+  ctx.fillText('ggay Sales Batista', x, y);
 
   requestAnimationFrame(draw);
 }
