@@ -28,7 +28,7 @@ function draw() {
     drops[i]++;
   }
 
-  // Adiciona o nome "mateus" centralizado
+  // Adiciona o nome "mateu" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
   const textWidth = ctx.measureText('mateus').width;
